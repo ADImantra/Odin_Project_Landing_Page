@@ -10,6 +10,12 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
+
+}
+
+img {
+    width: 400px;
 
 }
 
@@ -28,18 +34,49 @@ li {
 
 }
 
+p {
+    width: 800px;
+
+}
+
+button {
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 16px ;
+
+
+}
+
+button.the-other-button {
+    font-size: 16px;
+    border-radius: 10px;
+    background-color:  #F9FAF8;
+    color: #3882F6;
+    padding: 10px 16px ;
+
+}
+
+p.quote-text {
+    font-size: 36px;
+    color: #1F2937
+
+
+}
+
 .first-quarter {
     background-color: #1F2937;
-    padding-bottom: 48px;
-
+    padding: 0px 24px 48px 24px;
 
 }
 
 .header {
     display: flex;
     align-items: center;
+    padding: 0px;
+    margin: 0px 0px 36px 0px;
     justify-content: space-around;
-    margin-bottom: 36px;
 
 }
 
@@ -57,6 +94,8 @@ li {
 .title-block {
     display: flex;
     align-items: center;
+    margin: 0px;
+    padding: 0px;
     justify-content: space-around;
 
 }
@@ -73,6 +112,7 @@ li {
 .title {
     font-size: 48px;
     color: #F9FAF8;
+    flex-wrap: wrap;
 
 }
 
@@ -84,24 +124,40 @@ li {
 
 }
 
-.title-block.right-side-image {
-
-
-}
-
-
 
 .second-quarter {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 16px;
-    padding: 8px;
+    padding: 48px;
+
+}
+
+.middle-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 64px;
+
+}
+
+.second-quarter img {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+
 
 }
 
 .third-quarter {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
 }
 
