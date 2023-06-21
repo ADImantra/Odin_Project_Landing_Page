@@ -1,0 +1,82 @@
+* {
+
+
+}
+
+body {
+
+
+}
+
+a {
+
+
+}
+
+ul {
+
+
+}
+
+li {
+
+
+}
+
+.first-quarter {
+    background-color: #1F2937;  
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.header.logo {
+
+
+}
+
+.header.header-links {
+
+
+}
+
+.title-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.subtext {
+    flex-wrap: wrap;
+    width: 200px;
+
+}
+
+.title-block.right-side-image {
+
+
+}
+
+
+
+.second-quarter {
+
+
+}
+
+.third-quarter {
+    background-color: #E5E7EB;
+
+}
+
+.final-quarter {
+
+
+}
+
