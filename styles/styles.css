@@ -43,6 +43,7 @@ button {
     font-size: 16px;
     border-radius: 10px;
     background-color: #3882F6;
+    box-shadow: #1F2937;
     color: #F9FAF8;
     padding: 10px 16px ;
 
@@ -163,6 +164,19 @@ p.quote-text {
 
 .final-quarter {
 
+    background-color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.modal {
+    background-color: #3882F6;
+    border-radius: 25px;
+    color: #F9FAF8;
+    display: flex;
+    flex-basis: 400px;
+    align-items: center;
+    justify-content: space-around;
 }
 
